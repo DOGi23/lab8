@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/urlbar"
+        android:orderInCategory="100"
+        android:title="Скрыть/отобразить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Обновить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:title="Назад"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/forward"
+        android:orderInCategory="100"
+        android:title="Вперед"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="Настройки"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="Выход"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Общие настройки">
+        <EditTextPreference
+            android:key="url"
+            android:title="Стартовая страница"
+            android:summary="Установить стартовую страницу"
+            android:defaultValue="http://google.ru"
+            android:dialogTitle="URL"
+            />
+        <CheckBoxPreference
+            android:key="image"
+            android:title="Графика"
+            android:summary="Разрешить/запретить загрузку графики на страницу"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Настройки">
+        <CheckBoxPreference
+            android:key="javascript"
+            android:title="Использование Java-скриптов"
+            android:summary="Разрешить/запретить использование Java-скриптов"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="popup"
+            android:title="Всплывающие окна"
+            android:summary="Разрешить/запретить отображать всплывающие окна"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
